@@ -1,0 +1,17 @@
+name: ibex_knowledge_base_dev
+
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.9.0 
+  - pandas
+  - tabulate
+  - bibtexparser
+  - pytest 
+  - flake8 
+  - pre-commit
+  - pip
+  - pip:
+    - black
+

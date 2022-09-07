@@ -1,0 +1,24 @@
+remote_theme: jekyll/minima
+
+title: IBEX Micrcoscopy Imaging
+
+header_pages:
+  - index.md
+  - roadmap.md
+  - data_and_software.md
+  - publications.md
+  - q_and_a.md
+  - contrib.md
+  - steering_committee.md
+
+minima:
+  skin: classic
+
+plugins:
+  - jekyll-titles-from-headings
+
+titles_from_headings:
+  enabled:     true
+  strip_title: true
+  collections: true
+
