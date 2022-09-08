@@ -19,6 +19,7 @@
 import pandas as pd
 import argparse
 import sys
+import pathlib
 from argparse_types import file_path, dir_path
 
 """
@@ -69,13 +70,19 @@ def csv_2_md_with_url(csv_file_path, supporting_material_root_dir):
     """
     # Read the dataframe and keep entries that are "NA", don't convert to nan
     df = pd.read_csv(csv_file_path, dtype=str, keep_default_na=False)
+    supporting_material_path = pathlib.PurePath(supporting_material_root_dir).name
     if not df.empty:
         df["Agree"] = df[
             ["Agree", "Target Name / Protein Biomarker", "Conjugate"]
-        ].apply(lambda x: data_2_urls_str(x, supporting_material_root_dir), axis=1)
+        ].apply(lambda x: data_2_urls_str(x, supporting_material_path), axis=1)
         df["Disagree"] = df[
             ["Disagree", "Target Name / Protein Biomarker", "Conjugate"]
-        ].apply(lambda x: data_2_urls_str(x, supporting_material_root_dir), axis=1)
+        ].apply(
+            lambda x: data_2_urls_str(
+                x, pathlib.PurePath(supporting_material_root_dir).name
+            ),
+            axis=1,
+        )
     with open(supporting_material_root_dir.parent / "roadmap.md", "w") as fp:
         fp.write("# Roadmap\n\n" + md_header + df.to_markdown(index=False))
 
