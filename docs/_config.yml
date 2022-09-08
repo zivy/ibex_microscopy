@@ -16,6 +16,7 @@ minima:
 
 plugins:
   - jekyll-titles-from-headings
+  - jekyll-relative-links
 
 titles_from_headings:
   enabled:     true
