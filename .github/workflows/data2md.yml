@@ -1,0 +1,41 @@
+name: Data to Markdown
+
+on:
+  push:
+    branches: [ main ]
+    paths:
+      - publications.bib
+      - roadmap.csv
+
+jobs:
+  data_2_md:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+      with:
+        fetch-depth: 0
+    - name: Set up Python 3.9
+      uses: actions/setup-python@v2
+      with:
+        python-version: 3.9
+    - name: Install dependencies
+      run: |
+        sudo apt-get update
+        sudo apt-get install pandoc
+        sudo apt-get install pandoc-citeproc
+        python -m pip install --upgrade pip
+        pip install -r src/requirements.txt
+    - name: Convert bibliography to markdown
+      run: |
+        pandoc --version
+        python src/bib2md.py publications.bib src/ibex.csl docs/publications.md
+    - name: Convert roadmap csv to markdown
+      run: |
+        python src/csv_roadmap_2_md_url.py roadmap.csv docs/supporting_material
+    - name: Commit and push
+      run: |
+        git config --local user.email "$(git log --format='%ae' HEAD^!)"
+        git config --local user.name "$(git log --format='%an' HEAD^!)"
+        git add docs/roadmap.md docs/publications.md
+        git commit -m "Adding converted markdowns."
+        git push
