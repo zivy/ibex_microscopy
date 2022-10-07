@@ -12,7 +12,7 @@ header_pages:
   - steering_committee.md
 
 minima:
-  skin: solarized
+  skin: classic
 
 plugins:
   - jekyll-titles-from-headings
