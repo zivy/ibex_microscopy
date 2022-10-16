@@ -20,9 +20,9 @@ The authoritative and versioned form of the knowledge-base will be available for
 This repository is a work-in-progress and is not an authoritative version of the knowledge-base.
 
 ## Structure
-The knowledge-base can be explored from two starting points, [reagent_resources.csv](reagent_resources.csv) and [q_and_a.md](q_and_a.md). The former is the primary starting point and contains high level information describing successful and failed IBEX configurations (based on target-conjugate, dye, organelle marker etc.). The later contains a set of questions and answers on various aspects of the IBEX imaging protocol. These were either not addressed in publications, or were not sufficiently clear to scientists from their descriptions in the publications.
+The knowledge-base can be explored from two starting points, [reagent resources](reagent_resources.md) and [questions and answers](q_and_a.md). The former is the primary starting point and contains high level information describing successful and failed IBEX configurations (based on target-conjugate, dye, organelle marker etc.). The later contains a set of questions and answers on various aspects of the IBEX imaging protocol. These were either not addressed in publications, or were not sufficiently clear to scientists from their descriptions in the publications.
 
-To facilitate browsing on GitHub a markdown file ([reagent_resources.md](reagent_resources.md)) file is automatically generated from the [reagent_resources.csv](reagent_resources.csv) file. It includes hyperlinks to the supporting materials files, so that you can easily move between this high level file
+To facilitate data browsing on the website a markdown file ([reagent_resources.md](reagent_resources.md)) is automatically generated from the [reagent_resources.csv](https://github.com/zivy/ibex_microscopy/blob/main/reagent_resources.csv) file. It includes hyperlinks to the supporting materials files, so that you can easily move between this high level file
 and the supporting material files.
 
 ```

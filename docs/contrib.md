@@ -23,10 +23,12 @@ To give credit where credit is due, we ask that you provide the complete list of
 
 ### Modifying a markdown file:
 Simply edit the relevant file.
-> :warning: Do not edit the **reagent_resources.md** or **publications.md** files, they are automatically generated from the *reagent_resources.csv* and *publications.bib* files respectively.
+
+Do not edit the **reagent_resources.md** or **publications.md** files, they are automatically generated from the *reagent_resources.csv* and *publications.bib* files respectively.
 
 ### Modifying *reagent_resources.csv*:
-> :warning: Do not use non ASCII characters such as $^{TM}$ or $\alpha$ (either remove or represent using standard ASCII "alpha").
+
+Do not use non ASCII characters such as $^{TM}$ or $\alpha$ (either remove or represent using standard ASCII "alpha").
 
 #### Adding new line:
 1. Add a line to the [reagent_resources.csv](reagent_resources.csv).
