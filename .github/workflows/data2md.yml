@@ -5,7 +5,7 @@ on:
     branches: [ main ]
     paths:
       - publications.bib
-      - roadmap.csv
+      - reagent_resources.csv
 
 jobs:
   data_2_md:
@@ -29,13 +29,13 @@ jobs:
       run: |
         pandoc --version
         python src/bib2md.py publications.bib src/ibex.csl docs/publications.md
-    - name: Convert roadmap csv to markdown
+    - name: Convert reagent-resources csv to markdown
       run: |
-        python src/csv_roadmap_2_md_url.py roadmap.csv docs/supporting_material
+        python src/csv_reagent_resources_2_md_url.py reagent_resources.csv docs/supporting_material
     - name: Commit and push
       run: |
         git config --local user.email "$(git log --format='%ae' HEAD^!)"
         git config --local user.name "$(git log --format='%an' HEAD^!)"
-        git add docs/roadmap.md docs/publications.md
+        git add docs/reagent_resources.md docs/publications.md
         git commit -m "Adding converted markdowns."
         git push
