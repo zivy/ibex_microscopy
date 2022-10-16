@@ -4,6 +4,12 @@ Multiplex imaging protocols are complex, they involve a variety of technologies 
 
 This file contains questions and answers addressing various aspects of the IBEX imaging protocol which were not addressed in publications, or which were not sufficiently clear to scientists from their descriptions in the publications.
 
+---
+
+If you have a question that does not appear here, please ask on the [knowledge-base GitHub issue tracker](https://github.com/zivy/ibex_microscopy/issues). Posting to the issue tracker requires a GitHub account. If you do not have an account, please follow these [instructions to sign up for one](https://docs.github.com/en/get-started/signing-up-for-github/signing-up-for-a-new-github-account).
+
+---
+
 1. **Is IBEX compatible with FFPE samples?**  
   The use of IBEX on heavily fixed mouse FFPE samples using Opal-plex is shown in [[Figure 6, Radtke et al., PNAS 2020](https://doi.org/10.1073/pnas.2018488117)] and in [[Figure 4, Radtke et al., Nature Protocols 2022](https://doi.org/10.1038/s41596-021-00644-9)] for human FFPE samples using automated IBEX. Additionally, the manual IBEX method was applied to FFPE tissue sections adhered to glass slides, [[Figure S3A, Radtke et al., PNAS 2020](https://www.pnas.org/doi/suppl/10.1073/pnas.2018488117/suppl_file/pnas.2018488117.sapp.pdf)].
 

@@ -8,7 +8,7 @@ To contribute your knowledge you need to have an Open Researcher and Contributor
 ## One time setup
 1. Install [git](https://git-scm.com/downloads) and [git-lfs]().
 2. If you are not comfortable working with git and GitHub from the command-line, download the [GitHub Desktop](https://desktop.github.com/) application and [read the installation and configuration help](https://docs.github.com/en/desktop/installing-and-configuring-github-desktop).
-3. Fork this repository and clone it to a local directory ([GitHub Desktop instructions](https://docs.github.com/en/desktop/contributing-and-collaborating-using-github-desktop/adding-and-cloning-repositories/cloning-and-forking-repositories-from-github-desktop)).
+3. Fork the [IBEX Imaging Community repository](https://github.com/zivy/ibex_microscopy) and clone it to a local directory ([GitHub Desktop instructions](https://docs.github.com/en/desktop/contributing-and-collaborating-using-github-desktop/adding-and-cloning-repositories/cloning-and-forking-repositories-from-github-desktop)).
 4. Add your information to the "creators" section in the .zenodo.json file.
 
 ## Adding information to the knowledge-base
@@ -28,10 +28,10 @@ Do not edit the **reagent_resources.md** or **publications.md** files, they are 
 
 ### Modifying *reagent_resources.csv*:
 
-Do not use non ASCII characters such as $^{TM}$ or $\alpha$ (either remove or represent using standard ASCII "alpha").
+Do not use non ASCII characters such as &trade; or &alpha; (either remove or represent using standard ASCII "alpha").
 
 #### Adding new line:
-1. Add a line to the [reagent_resources.csv](reagent_resources.csv).
+1. Add a line to the [reagent_resources.csv](https://github.com/zivy/ibex_microscopy/blob/main/reagent_resources.csv).
 2. Create corresponding supporting material sub-directory using the target_conjugate as the directory name and add a markdown file with your ORCID as the file prefix (see existing files for reference). Supporting material file has a fixed layout, given in the [supporting_template.md](supporting_material/supporting_template.md).
 3. Optionally add **small** image files (jpg, png, tiff) and refer to them in the supporting material file.
 
