@@ -36,6 +36,12 @@ Do not use non ASCII characters such as &trade; or &alpha; (either remove or rep
 3. Optionally add **small** image files (jpg, png, tiff) and refer to them in the supporting material file.
 
 #### Adding information to existing line:
+---
+
+We only accept up to 5 ORCID additions in the `Agree` or `Disagree` columns. This means that, the original contributer's work was replicated by up to 4 people from other laboratories or refuted by up to 5 people from other laboratories.
+
+---
+
 1. Add your ORCID to the `Agree` or `Disagree` column on the appropriate line in the reagent_resources.csv file, use a semicolon `;` to separate from the previous ones (e.g. `ORCID1; ORCID2; ORCID3`).
 2. If after adding your vote:
   * The number of ORCIDs in the `Disagree` column is greater than those in the `Agree` column:
