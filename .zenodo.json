@@ -1,5 +1,5 @@
 {
-    "description": "This repository contains the current state of knowledge with respect to antibody usage as part of the IBEX imaging protocol.",
+    "description": "The Iterative Bleaching Extends Multiplexity (IBEX) imaging method is an iterative immunolabeling and chemical bleaching method that enables multiplexed imaging in diverse tissues. The method was originally developed in the Laboratory of Dr. Ronald Germain in the Lymphocyte Biology Section, Laboratory of Immune System Biology at the US National Institutes of Health [Radtke et al. 2020, Radtke et al. 2022].\\nThis dataset contains the current state of knowledge with respect to the IBEX microscopy imaging protocol.",
 
     "keywords": [
         "Multiplexed Optical Imaging",
@@ -8,26 +8,23 @@
     "license": {
         "id": "cc-by-nc-4.0"
     },
-    "title": "Iterative Bleaching Extends Multiplexity (IBEX) Antibody KnowledgeBase",
+    "title": "Iterative Bleaching Extends Multiplexity (IBEX) Antibody Knowledge-Base",
     "upload_type": "dataset",
     "creators": [
         {
             "affiliation": "National Institutes of Health",
             "name": "Radtke, Andrea J.",
-            "orcid": "0000-0003-4379-8967",
-            "email": "andrea.radtke@nih.gov"
+            "orcid": "0000-0003-4379-8967"
         },
         {
             "affiliation": "National Institutes of Health",
             "name": "Yaniv, Ziv",
-            "orcid": "0000-0003-0315-7727",
-            "email": "zivyaniv@nih.gov"
+            "orcid": "0000-0003-0315-7727"
         },
         {
             "affiliation": "National Institutes of Health",
             "name": "Germain, Ronald",
-            "orcid": "0000-0003-1495-9143",
-            "email": "ronald.germain@nih.gov"
+            "orcid": "0000-0003-1495-9143"
         }
     ],
     "grants": [{"id":"10.13039/100000002::1ZIAAI000974-07"}]
