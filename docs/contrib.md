@@ -1,9 +1,12 @@
 # Contribute
 
+To contribute your knowledge you need the following:
+1. Open Researcher and Contributor ID ([ORCID](https://en.wikipedia.org/wiki/ORCID)), your unique scientific identifier. If you do not have an ORCID, register for it [here](https://orcid.org/register).
+1. A GitHub account. If you do not have an account, follow these [instructions to sign up for one](https://docs.github.com/en/get-started/signing-up-for-github/signing-up-for-a-new-github-account).
+
+
 This knowledge-base follows the standard GitHub
 [fork and pull request, triangular workflow](https://guides.github.com/activities/forking/).
-
-To contribute your knowledge you need to have an Open Researcher and Contributor ID ([ORCID](https://en.wikipedia.org/wiki/ORCID)), your unique scientific identifier. If you do not have an ORCID, register for it [here](https://orcid.org/register).
 
 ## One time setup
 1. Install [git](https://git-scm.com/downloads) and [git-lfs]().
