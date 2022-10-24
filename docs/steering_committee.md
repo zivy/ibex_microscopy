@@ -1,5 +1,6 @@
 # Steering Committee
 
+* Ifeanyichukwu Anidi, National Institutes of Health, USA, [ifeanyichukwu.anidi@nih.gov](mailto:ifeanyichukwu.anidi@nih.gov)
 * Colin J. Chu, University College London, UK, [colin.chu@ucl.ac.uk](mailto:colin.chu@ucl.ac.uk)
 * Joshua Croteau, BioLegend Inc., USA, [jcroteau@biolegend.com](mailto:jcroteau@biolegend.com)	
 * Walderez O. Dutra, Universidade Federal de Minas Gerais, Brazil, [waldutra@gmail.com](mailto:waldutra@gmail.com)
