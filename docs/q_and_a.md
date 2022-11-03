@@ -6,7 +6,7 @@ This file contains questions and answers addressing various aspects of the IBEX 
 
 ---
 
-If you have a question that does not appear here, please ask on the [knowledge-base GitHub issue tracker](https://github.com/zivy/ibex_microscopy/issues). Posting to the issue tracker requires a GitHub account. If you do not have an account, please follow these [instructions to sign up for one](https://docs.github.com/en/get-started/signing-up-for-github/signing-up-for-a-new-github-account).
+If you have a question that does not appear here, please ask on the [knowledge-base GitHub Discussions](https://github.com/zivy/ibex_microscopy/discussions). Posting to the Discussions board requires a GitHub account. If you do not have an account, please follow these [instructions to sign up for one](https://docs.github.com/en/get-started/signing-up-for-github/signing-up-for-a-new-github-account).
 
 ---
 
