@@ -17,7 +17,16 @@ antibody-based imaging,” *Nature Methods*, vol. 19, no. 2, pp. 284–295,
 \[Corresponding authors: [Andrea J. Radtke, Sinem K.
 Saka](mailto:andrea.radtke@nih.gov,sinem.saka@embl.de)\]
 
-\[2\] A. J. Radtke, C. J. Chu, Z. Yaniv, L. Yao, J. Marr, R. T.
+\[2\] N. Richoz, Z. K. Tuong, K. W. Loudon, E. Patiño-Martínez, J. R.
+Ferdinand, A. Portet, K. R. Bashant, E. Thevenon, F. Rucci, T. Hoyler,
+T. Junt, M. J. Kaplan, R. M. Siegel, and M. R. Clatworthy, “Distinct
+pathogenic roles for resident and monocyte-derived macrophages in lupus
+nephritis,” *JCI Insight*, vol. 7, no. 21, p. e159751, 2022, doi:
+[10.1172/jci.insight.159751](https://doi.org/10.1172/jci.insight.159751).  
+\[Corresponding authors: [Richard M. Siegel, Menna R.
+Clatworthy](mailto:richard.siegel@novartis.com,mrc38@cam.ac.uk)\]
+
+\[3\] A. J. Radtke, C. J. Chu, Z. Yaniv, L. Yao, J. Marr, R. T.
 Beuschel, H. Ichise, A. Gola, J. Kabat, B. Lowekamp, E. Speranza, J.
 Croteau, N. Thakur, D. Jonigk, J. Davis, J. M. Hernandez, and R. N.
 Germain, “IBEX: An iterative immunolabeling and chemical bleaching
@@ -29,7 +38,7 @@ Germain](mailto:andrea.radtke@nih.gov,ronald.germain@nih.gov), Keywords:
 *human-jejunum-normal, human-kidney-normal, human-lymph node-normal,
 human-skin-normal*\]
 
-\[3\] A. J. Radtke, E. Postovalova, A. Varlamova, A. Bagaev, M.
+\[4\] A. J. Radtke, E. Postovalova, A. Varlamova, A. Bagaev, M.
 Sorokina, O. Kudryashova, M. Meerson, M. Polyakova, I. Galkin, V.
 Svekolkin, S. Isaev, G. Perelman, Y. Lozinsky, Z. Yaniv, B. C. Lowekamp,
 E. Speranza, L. Yao, S. Pittaluga, A. L. Shaffer, D. Jonigk, J. D.
@@ -42,7 +51,7 @@ follicular lymphoma lymph nodes,” *bioRxiv*, 2022, doi:
 \[Corresponding authors: [Andrea J.
 Radtke](mailto:andrea.radtke@nih.gov)\]
 
-\[4\] E. Madissoon, A. J. Oliver, V. Kleshchevnikov, A. Wilbrey-Clark,
+\[5\] E. Madissoon, A. J. Oliver, V. Kleshchevnikov, A. Wilbrey-Clark,
 K. Polanski, A. R. Orsi, L. Mamanova, L. Bolt, N. Richoz, R. Elmentaite,
 J. P. Pett, N. Huang, P. He, M. Dabrowska, S. Pritchard, L. Tuck, E.
 Prigmore, A. Knights, A. Oszlanczi, A. Hunter, S. F. Vieira, M. Patel,
@@ -52,7 +61,7 @@ spatial multi-omics atlas of the human lung reveals a novel immune cell
 survival niche,” *bioRxiv*, 2021, doi:
 [10.1101/2021.11.26.470108](https://doi.org/10.1101/2021.11.26.470108).
 
-\[5\] A. Gola, M. G. Dorrington, E. Speranza, C. Sala, R. M. Shih, A. J.
+\[6\] A. Gola, M. G. Dorrington, E. Speranza, C. Sala, R. M. Shih, A. J.
 Radtke, H. S. Wong, A. P. Baptista, J. M. Hernandez, G. Castellani, I.
 D. C. Fraser, and R. N. Germain, “Commensal-driven immune zonation of
 the liver promotes host defence,” *Nature*, vol. 589, no. 7840, pp.
@@ -61,7 +70,7 @@ the liver promotes host defence,” *Nature*, vol. 589, no. 7840, pp.
 \[Corresponding authors: [Anita Gola, Ronald N.
 Germain](mailto:anitagola2@gmail.com,ronald.germain@nih.gov)\]
 
-\[6\] A. J. Radtke, E. Kandov, B. Lowekamp, E. Speranza, C. J. Chu, A.
+\[7\] A. J. Radtke, E. Kandov, B. Lowekamp, E. Speranza, C. J. Chu, A.
 Gola, N. Thakur, R. Shih, L. Yao, Z. R. Yaniv, R. T. Beuschel, J. Kabat,
 J. Croteau, J. Davis, J. M. Hernandez, and R. N. Germain, “IBEX: A
 versatile multiplex optical imaging approach for deep phenotyping and
@@ -74,7 +83,7 @@ Germain](mailto:andrea.radtke@nih.gov,ronald.germain@nih.gov), Keywords:
 *mouse-spleen-normal, mouse-thymus-normal, mouse-lung-normal,
 mouse-small intestine-normal, mouse-liver-normal*\]
 
-\[7\] E. Speranza, J. N. Purushotham, J. R. Port, B. Schwarz, M. Flagg,
+\[8\] E. Speranza, J. N. Purushotham, J. R. Port, B. Schwarz, M. Flagg,
 B. N. Williamson, F. Feldmann, M. Singh, L. Pérez-Pérez, G. L.
 Sturdevant, L. M. Roberts, A. Carmody, J. E. Schulz, N. van Doremalen,
 A. Okumura, J. Lovaglio, P. W. Hanley, C. Shaia, R. N. Germain, S. M.
