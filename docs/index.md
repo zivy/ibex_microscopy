@@ -1,8 +1,4 @@
----
-permalink: /home/
----
-
-![](ibex_banner.png?raw=true)
+<img src="https://github.com/zivy/ibex_microscopy_external_images/raw/main/IBEX_Banner.jpg">
 
 [![Creative Commons License](https://i.creativecommons.org/l/by/4.0/88x31.png)](http://creativecommons.org/licenses/by/4.0/) &nbsp;&nbsp;&nbsp;&nbsp; [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](code_of_conduct.md)
 
