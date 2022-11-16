@@ -59,7 +59,9 @@ N. Georgakopoulos, K. Mahbubani, K. Saeb-Parsy, M. Clatworthy, O. A.
 Bayraktar, O. Stegle, N. Kumasaka, S. A. Teichmann, and K. B. Meyer, “A
 spatial multi-omics atlas of the human lung reveals a novel immune cell
 survival niche,” *bioRxiv*, 2021, doi:
-[10.1101/2021.11.26.470108](https://doi.org/10.1101/2021.11.26.470108).
+[10.1101/2021.11.26.470108](https://doi.org/10.1101/2021.11.26.470108).  
+\[Corresponding authors: [Sarah A. Teichmann, Kerstin B.
+Meyer](mailto:st9@sanger.ac.uk,km16@sanger.ac.uk)\]
 
 \[6\] A. Gola, M. G. Dorrington, E. Speranza, C. Sala, R. M. Shih, A. J.
 Radtke, H. S. Wong, A. P. Baptista, J. M. Hernandez, G. Castellani, I.
