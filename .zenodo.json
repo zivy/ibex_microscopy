@@ -1,12 +1,12 @@
 {
-    "description": "The Iterative Bleaching Extends Multiplexity (IBEX) imaging method is an iterative immunolabeling and chemical bleaching method that enables multiplexed imaging in diverse tissues. The method was originally developed in the Laboratory of Dr. Ronald Germain in the Lymphocyte Biology Section, Laboratory of Immune System Biology at the US National Institutes of Health [Radtke et al. 2020, Radtke et al. 2022].\\nThis dataset contains the current state of knowledge with respect to the IBEX microscopy imaging protocol.",
+    "description": "The Iterative Bleaching Extends Multiplexity (IBEX) imaging method is an iterative immunolabeling and chemical bleaching method that enables multiplexed imaging in diverse tissues. The method was originally developed in the Laboratory of Dr. Ronald Germain in the Lymphocyte Biology Section, Laboratory of Immune System Biology at the US National Institutes of Health [Radtke et al. 2020, Radtke et al. 2022].\nThis dataset contains the current state of knowledge with respect to the IBEX microscopy imaging protocol.",
 
     "keywords": [
         "Multiplexed Optical Imaging",
         "Antibody"
     ],
     "license": {
-        "id": "cc-by-nc-4.0"
+        "id": "cc-by-4.0"
     },
     "title": "Iterative Bleaching Extends Multiplexity (IBEX) Antibody Knowledge-Base",
     "upload_type": "dataset",
@@ -14,17 +14,40 @@
         {
             "affiliation": "National Institutes of Health",
             "name": "Radtke, Andrea J.",
-            "orcid": "0000-0003-4379-8967"
+            "orcid": "0000-0003-4379-8967",
+            "email": "andrea.radtke@nih.gov"
         },
         {
             "affiliation": "National Institutes of Health",
             "name": "Yaniv, Ziv",
-            "orcid": "0000-0003-0315-7727"
+            "orcid": "0000-0003-0315-7727",
+            "email": "zivyaniv@nih.gov"
         },
         {
             "affiliation": "National Institutes of Health",
             "name": "Germain, Ronald",
-            "orcid": "0000-0003-1495-9143"
+            "orcid": "0000-0003-1495-9143",
+            "email": "ronald.germain@nih.gov"
+        }
+        {
+            "affiliation": "National Institutes of Health",
+            "name": "Rochelle Shih",
+            "orcid": "0000-0002-3218-4479",
+        }
+        {
+            "affiliation": "National Institutes of Health",
+            "name": "Beuschel, Rebecca T.",
+            "orcid": "0000-0002-3882-457X",
+        }
+        {
+            "affiliation": "National Institutes of Health",
+            "name": "Ichise, Hiroshi",
+            "orcid": "0000-0002-5187-810X",
+        }
+        {
+            "affiliation": "National Institutes of Health",
+            "name": "Gola, Anita",
+            "orcid": "0000-0003-1431-1398",
         }
     ],
     "grants": [{"id":"10.13039/100000002::1ZIAAI000974-07"}]
