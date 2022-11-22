@@ -19,6 +19,7 @@
 * Katy Börner, Indiana University, USA.
 * Ronald N. Germain, National Institutes of Health, USA.
 * Danny	Jonigk, University Hospital Aachen, Germany.
+* Wolfgang Kastenmüller, Julius Maximilians Universität Würzburg, Germany.
 * Neil Kelleher, Northwestern University, USA.
 * Sarah Teichmann, Wellcome Sanger Institute, UK.
 
