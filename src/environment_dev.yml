@@ -8,6 +8,7 @@ dependencies:
   - pandas
   - tabulate
   - bibtexparser
+  - requests
   - pytest 
   - flake8 
   - pre-commit

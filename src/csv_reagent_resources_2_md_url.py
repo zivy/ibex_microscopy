@@ -21,6 +21,7 @@ import argparse
 import sys
 import pathlib
 from argparse_types import file_path, dir_path
+import requests
 
 """
 This script converts the IBEX knowledge-base reagent_resources.csv file to markdown and
@@ -29,7 +30,7 @@ The links cannot exist in the original csv file, or in a simple way in an excel
 spreadsheet because we use multiple links in the same table cell (Agree/Disagree), 
 functionality excel does not support in a simple manner. # noqa W291
 
-On the other hand, using markdown for the reagent-resources table does not address all our 
+On the other hand, using markdown for the reagent-resources table does not address all our
 needs either, sorting and searching are not possible or are very cumbersome. We 
 therefore use the csv file as the official reagent-resources, and it is what
 contributors edit.
@@ -60,6 +61,24 @@ def data_2_urls_str(data, supporting_material_root_dir):
     return urls_str
 
 
+def uniprot_2_url_str(uniprot):
+    try:
+        # See https://www.uniprot.org/help/api_retrieve_entries
+        # We use the rest API url because trying to directly connect
+        # to the fixed url always succeeds, return code 200,
+        # even when it is an error, the 404 page is shown.
+        rest_url_str = f"https://rest.uniprot.org/uniprotkb/{uniprot}.txt"
+        res = requests.get(rest_url_str)
+        # HTTP 200 status code for success
+        if res.status_code == 200:
+            # See linking to uniprot entries
+            return f"[{uniprot}](https://www.uniprot.org/uniprotkb/{uniprot})"
+        else:
+            return uniprot
+    except requests.exceptions.RequestException:
+        return uniprot
+
+
 def csv_2_md_with_url(csv_file_path, supporting_material_root_dir):
     """
     Convert the IBEX knowledge-base csv file to markdown and add links to the supporting
@@ -81,6 +100,12 @@ def csv_2_md_with_url(csv_file_path, supporting_material_root_dir):
             ),
             axis=1,
         )
+        uniprot_2_str = {}
+        for uniprot in df["UniProt Accession Number"].unique():
+            uniprot_2_str[uniprot] = uniprot_2_url_str(uniprot)
+        df["UniProt Accession Number"] = df["UniProt Accession Number"].apply(
+            lambda x: uniprot_2_str[x]
+        )
     with open(supporting_material_root_dir.parent / "reagent_resources.md", "w") as fp:
         fp.write("# Reagent Resources\n\n" + md_header + df.to_markdown(index=False))
 
@@ -89,7 +114,7 @@ def main(argv=None):
     if argv is None:  # script was invoked from commandline
         argv = sys.argv[1:]
     parser = argparse.ArgumentParser(
-        description="Convert knowledge-base reagent-resources file from csv to md and add hyperlinks."
+        description="Convert knowledge-base reagent resources file from csv to md and add hyperlinks."
     )
     parser.add_argument("csv_file", type=file_path)
     parser.add_argument("supporting_material_root_dir", type=dir_path)
