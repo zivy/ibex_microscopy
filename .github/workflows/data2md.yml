@@ -6,7 +6,7 @@ on:
     paths:
       - publications.bib
       - reagent_resources.csv
-
+  workflow_dispatch:
 jobs:
   data_2_md:
     runs-on: ubuntu-latest
