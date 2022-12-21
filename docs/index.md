@@ -1,15 +1,35 @@
-<img src="https://github.com/zivy/ibex_microscopy_external_images/raw/main/IBEX_Banner.jpg">
+<img src="https://github.com/IBEXImagingCommunity/ibex_imaging_large_files/raw/main/docs/IBEX_Banner.jpg">
 
 [![Creative Commons License](https://i.creativecommons.org/l/by/4.0/88x31.png)](http://creativecommons.org/licenses/by/4.0/) &nbsp;&nbsp;&nbsp;&nbsp; [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](code_of_conduct.md)
 
+<table style="margin-left: auto;margin-right: auto; border: 2px solid purple; border-radius: 20px;">
+    <tbody>
+        <tr>
+            <td style="text-align:center;"><p style="font-family:verdana;font-size:xx-large">20</p></td>
+            <td style="text-align:center"><p style="font-family:verdana;font-size:xx-large">500</p></td>
+            <td style="text-align:center"><p style="font-family:verdana;font-size:xx-large">100</p></td>
+            <td style="text-align:center"><p style="font-family:verdana;font-size:xx-large">20</p></td>
+            <td style="text-align:center"><p style="font-family:verdana;font-size:xx-large">20</p></td>
+        </tr>
+        <tr>
+            <td style="text-align:center;vertical-align: middle"><p style="font-family:verdana;font-size:x-large">Contributors</p></td>
+            <td style="text-align:center;vertical-align: middle"><p style="font-family:verdana;font-size:x-large">Antibodies Recommended</p></td>
+            <td style="text-align:center;vertical-align: middle"><p style="font-family:verdana;font-size:x-large">Antibodies<br>Not Recommended</p></td>
+            <td style="text-align:center;vertical-align: middle"><p style="font-family:verdana;font-size:x-large">Fluorophores<br>IBEX Approved</p></td>
+            <td style="text-align:center;vertical-align: middle"><p style="font-family:verdana;font-size:x-large">Tissues</p></td>
+        </tr>
+    </tbody>
+</table>
 
 # Iterative Bleaching Extends Multiplexity (IBEX) Knowledge-Base
 
-The Iterative Bleaching Extends Multiplexity (IBEX) imaging method is an iterative immunolabeling and chemical bleaching method that enables multiplexed imaging in diverse tissues. The method was originally developed in the Laboratory of Dr. Ronald Germain in the Lymphocyte Biology Section, [Laboratory of Immune System Biology](https://www.niaid.nih.gov/research/lab-immune-system-biology) at the US National Institutes of Health
-[[Radtke et al. 2020](https://doi.org/10.1073/pnas.2018488117), [Radtke et al. 2022](https://doi.org/10.1038/s41596-021-00644-9)].
+The Iterative Bleaching Extends Multiplexity (IBEX) imaging method is an iterative immunolabeling and chemical bleaching method that enables highly multiplexed imaging in diverse tissues. The method was originally developed in the Laboratory of Dr. Ronald Germain in the Lymphocyte Biology Section, [Laboratory of Immune System Biology](https://www.niaid.nih.gov/research/lab-immune-system-biology) at the US National Institutes of Health. The original protocol was described in the following publications:
 
 * A. J. Radtke et al., "IBEX: A versatile multiplex optical imaging approach for deep phenotyping and spatial analysis of cells in complex tissues", Proc. Natl. Acad. Sci. USA, 117(52): 33455-33465, 2020, [doi: 10.1073/pnas.2018488117](https://doi.org/10.1073/pnas.2018488117).
 * A. J. Radtke et al., "IBEX: an iterative immunolabeling and chemical bleaching method for high-content imaging of diverse tissues", Nat. Protoc., 17(2):378-401, 2022, [doi: 10.1038/s41596-021-00644-9](https://doi.org/10.1038/s41596-021-00644-9).
+
+## Overview
+The IBEX Imaging Community is an international group of scientists committed to sharing knowledge related to multiplexed imaging in a transparent and collaborative manner. This open, global repository is a central resource for reagents, protocols, panels, publications, software, and datasets. In addition to IBEX, we support standard, single cycle multiplexed imaging (Multiplexed 2D imaging), volume imaging of cleared tissues with clearing enhanced 3D (Ce3D), highly multiplexed 3D imaging (Ce3D-IBEX), and extension of the IBEX dye inactivation protocol to the Leica Cell DIVE (Cell DIVE-IBEX).
 
 ## Citation
 
@@ -21,67 +41,22 @@ The authoritative and versioned form of the knowledge-base will be available for
 
 This repository is a work-in-progress and is not an authoritative version of the knowledge-base.
 
-## Structure
-The knowledge-base can be explored from two starting points, [reagent resources](reagent_resources.md) and [questions and answers](q_and_a.md). The former is the primary starting point and contains high level information describing successful and failed IBEX configurations (based on target-conjugate, dye, organelle marker etc.). The later contains a set of questions and answers on various aspects of the IBEX imaging protocol. These were either not addressed in publications, or were not sufficiently clear to scientists from their descriptions in the publications.
+## Guiding Principles
 
-To facilitate data browsing on the website a markdown file ([reagent_resources.md](reagent_resources.md)) is automatically generated from the [reagent_resources.csv](https://github.com/zivy/ibex_microscopy/blob/main/reagent_resources.csv) file. It includes hyperlinks to the supporting materials files, so that you can easily move between this high level file
-and the supporting material files.
+### Shared ownership
+We are better together! Everyone who contributes to the knowledge-base is acknowledged by name in the Zenodo dataset releases (see [how to contribute](contrib.md) for details). The IBEX Imaging Community conducts discourse in a civil manner and encourages members of the community to share their scientific findings without fear of retribution.
 
-```
-ibex_knowledge_base
-│   reagent_resources.csv
-│   reagent_resources.md
-│   q_and_a.md   
-│   ...   
-│
-└───supporting_material
-    │
-    └───CD69_AF647
-    │   │  0000-0003-4379-8967.md
-    │   │  0000-0003-0315-7727.md
-    │   │  ...
-    │    
-    └───CD34_PE
-    │   │  0000-0003-1495-9143
-    │   │  ...
-    │
-    ...
-```
-## Overview
+### Failure teaches success
+Unlike publications, in which only successful work is described, the goal of this knowledge-base is to document both successful and failed work. By sharing failures, we advance science at a faster pace, reduce financial costs, and instill confidence in the resulting data.
 
-This repository contains the current state of knowledge
-with respect to the IBEX imaging protocol. The authoritative and versioned knowledge-base is [available on Zenodo](https://zenodo.org/).
+### Stewardship and democratization
+Our practice of sharing recommended and not recommended reagents prevents other researchers from wasting time and effort on work that is known to fail. The significant material cost of validating antibodies and developing imaging panels is well-described [[Hickey et al. 2021](https://doi.org/10.1038/s41592-021-01316-y)]. By stewarding our time and resources, we make science more equitable, allowing investigators around the world to prioritize community-validated reagents for their work.
 
-Unlike publications, in which only successful work is described, the goal of this knowledge-base (a.k.a. [data lake](https://en.wikipedia.org/wiki/Data_lake)) is to document both *successful and failed* work. By sharing failures, we advance science at a faster pace, reduce financial costs, and instill confidence in the resulting data. Sharing failures prevents other researchers from wasting time and effort on work that is known to fail. In addition to the time savings, the savings in material costs are non-negligible (developing multiplex imaging protocols is not a low-cost activity).
+### Commitment to excellence
+As scientists we strive to enable others to reproduce our work, confirming or refuting our results, thus making science self-correcting. Self-correction does not happen by default, it requires an explicit effort on our part [[Ioannidis 2012](https://doi.org/10.1177/1745691612464056)]. We are committed to reporting details that are critical for the success of a reagent, e.g., antigen retrieval conditions, detergent in blocking buffer, best conjugates/formats, and alternative clones, if applicable. We therefor include information related to antibody validation such as positive and negative controls and other relevant details in the detailed **notes section** of the supporting materials files.
 
-## Addressing a Need, The "Game" of Science
-
-As scientists we strive to enable others to reproduce our work, confirming or refuting our results, thus making science self-correcting. Self-correction does not happen by default, it requires an explicit effort on our part [[Ioannidis 2012](https://doi.org/10.1177/1745691612464056)]. This knowledge-base reflects the effort of the IBEX Imaging Community.
-
-While refuting results or disagreeing with others may be unpleasant, it is a critical component of the scientific process. We appreciate that junior members of the community may be more reluctant to engage in this practice [[Vazire 2020](https://doi.org/10.1038/d41586-019-03909-2)]. To address any apprehensions, we follow the Contributor Covenant v2.1 [code of conduct](CODE_OF_CONDUCT.md). More specifically, the IBEX Imaging Community conducts discourse in a civil manner and encourages members of the community to share their scientific findings without fear of retribution.
-
-* J. P. A. Ioannidis, "Why Science Is Not Necessarily Self-Correcting", Perspect Psychol Sci., 7(6):645-654, 2012, [doi:10.1177/1745691612464056](https://doi.org/10.1177/1745691612464056).
-* S. Vazire, "A toast to the error detectors", Nature, 577(7788):9, 2020, [doi: 10.1038/d41586-019-03909-2](https://doi.org/10.1038/d41586-019-03909-2).
-
-
-## Knowledge-Base (Data Lake) Design and Rationale
-
-The knowledge-base reagent-resources data is comprised of a single comma-separated-value file, [reagent_resources.csv](reagent_resources.csv). Each row in the file contains information with respect to a target-conjugate, a dye, an organelle marker etc. This file is the starting point for exploring the knowledge-base. A markdown version of the resources file is automatically created with links to the supporting material files. This enables convenient browsing of these files on GitHub.
-
-When adding content to the file one is **required to provide supporting material**. This can be in the form of a reference to a peer reviewed publication, when reporting successes, or in the form of images and textual explanations when reporting failures. In addition, we highly encourage contributors to provide detailed notes often omitted from publications due to space limitations. These notes may include alternative formats and clones recommended for this target, details on whether antibody is sensitive to cycle order, antigen retrieval conditions, and conjugation kits used if custom reagents are created.
-
-The supporting material is comprised of an [ASCII text file](https://en.wikipedia.org/wiki/Text_file) using [GitHub markdown](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) for richer content, and possibly images in png, jpg, and tiff formats which are referred to in the text file. The supporting material for each row is found, not surprisingly, in the directory `supporting_material/target_conjugate/ORCID.md`, where the `target_conjugate` are those listed in the row and the `ORCID` is the contributor's [Open Researcher and Contributor ID](https://orcid.org/).
-
-By using simple data formats, csv and markdown, we ensure that the raw files are:
-1. Human readable.
-2. Supported by many editors (excel/google docs/notepad/emacs...).
-3. Will be readable far into the future.
-
-By developing the knowledge-base using a public git repository on GitHub and GitHub's standard, fork and pull request, triangular workflow, we:
-1. Enable controlled addition of knowledge via automated testing and human oversight from a broad community.
-2. Instill trust in the knowledge-base by developing the knowledge-base in public view of the community.
-3. Clearly document contributions, a positive outcome of using git (every commit is naturally associated with a specific person).
-
-By distributing the knowledge-base via Zenodo, we:
-1. Automatically obtain a DOI for each version of the knowledge-base.
-2. Enable citation of the work via the DOI.
+### Power of iteration
+This repository contains the *current state of knowledge* with respect to the IBEX imaging method and associated protocols. The authoritative and versioned knowledge-base is available on Zenodo. This knowledge-base, like the method, is iterative. Help improve this community resource by contributing:
+1. A question on the [discussion forum](https://github.com/IBEXImagingCommunity/ibex_imaging_knowledge_base/discussions).
+1. A publication utilizing the IBEX imaging protocol (current list of [publications](https://IBEXImagingCommunity.github.io/ibex_imaging_knowledge_base/publications.html)).
+1. Confirm previous reagent results or contribute new ones (see [how to contribute](contrib.md)).
