@@ -43,19 +43,19 @@ This repository is a work-in-progress and is not an authoritative version of the
 
 ## Guiding Principles
 
-### Shared ownership
+### <span style="color:purple"> Shared ownership </span>
 We are better together! Everyone who contributes to the knowledge-base is acknowledged by name in the Zenodo dataset releases (see [how to contribute](contrib.md) for details). The IBEX Imaging Community conducts discourse in a civil manner and encourages members of the community to share their scientific findings without fear of retribution.
 
-### Failure teaches success
+### <span style="color:purple"> Failure teaches success </span>
 Unlike publications, in which only successful work is described, the goal of this knowledge-base is to document both successful and failed work. By sharing failures, we advance science at a faster pace, reduce financial costs, and instill confidence in the resulting data.
 
-### Stewardship and democratization
+### <span style="color:purple"> Stewardship and democratization </span>
 Our practice of sharing recommended and not recommended reagents prevents other researchers from wasting time and effort on work that is known to fail. The significant material cost of validating antibodies and developing imaging panels is well-described [[Hickey et al. 2021](https://doi.org/10.1038/s41592-021-01316-y)]. By stewarding our time and resources, we make science more equitable, allowing investigators around the world to prioritize community-validated reagents for their work.
 
-### Commitment to excellence
+### <span style="color:purple"> Commitment to excellence </span>
 As scientists we strive to enable others to reproduce our work, confirming or refuting our results, thus making science self-correcting. Self-correction does not happen by default, it requires an explicit effort on our part [[Ioannidis 2012](https://doi.org/10.1177/1745691612464056)]. We are committed to reporting details that are critical for the success of a reagent, e.g., antigen retrieval conditions, detergent in blocking buffer, best conjugates/formats, and alternative clones, if applicable. We therefor include information related to antibody validation such as positive and negative controls and other relevant details in the detailed **notes section** of the supporting materials files.
 
-### Power of iteration
+### <span style="color:purple"> Power of iteration </span>
 This repository contains the *current state of knowledge* with respect to the IBEX imaging method and associated protocols. The authoritative and versioned knowledge-base is available on Zenodo. This knowledge-base, like the method, is iterative. Help improve this community resource by contributing:
 1. A question on the [discussion forum](https://github.com/IBEXImagingCommunity/ibex_imaging_knowledge_base/discussions).
 1. A publication utilizing the IBEX imaging protocol (current list of [publications](https://IBEXImagingCommunity.github.io/ibex_imaging_knowledge_base/publications.html)).
