@@ -1,6 +1,6 @@
 <img src="https://github.com/IBEXImagingCommunity/ibex_imaging_large_files/raw/main/docs/IBEX_Banner.jpg">
 
-[![Creative Commons License](https://i.creativecommons.org/l/by/4.0/88x31.png)](http://creativecommons.org/licenses/by/4.0/) &nbsp;&nbsp;&nbsp;&nbsp; [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](code_of_conduct.md)&nbsp;&nbsp;&nbsp;&nbsp;{{{ page.date | date: date_format }}}
+[![Creative Commons License](https://i.creativecommons.org/l/by/4.0/88x31.png)](http://creativecommons.org/licenses/by/4.0/) &nbsp;&nbsp;&nbsp;&nbsp; [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](code_of_conduct.html)&nbsp;&nbsp;&nbsp;&nbsp;{{{ page.date }}}
 
 <table style="margin-left: auto;margin-right: auto; border: 2px solid purple; border-radius: 20px;">
     <tbody>
