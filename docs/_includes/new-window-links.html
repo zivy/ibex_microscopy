@@ -1,0 +1,13 @@
+<script>
+//open links in a new window (based on https://jekyllcodex.org/without-plugin/new-window-fix/)
+function new_window() {
+    for(var c = document.getElementsByTagName("a"), a = 0;a < c.length;a++) {
+        var b = c[a];
+        if(b.getAttribute("href")) {
+            b.target = "_blank";
+            b.rel = "noopener";
+        }
+    }
+}
+new_window();
+</script>

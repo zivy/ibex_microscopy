@@ -1,6 +1,10 @@
+---
+layout: default
+---
+
 <img src="https://github.com/IBEXImagingCommunity/ibex_imaging_large_files/raw/main/docs/IBEX_Banner.jpg">
 
-[![Creative Commons License](https://i.creativecommons.org/l/by/4.0/88x31.png)](http://creativecommons.org/licenses/by/4.0/) &nbsp;&nbsp;&nbsp;&nbsp; [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](code_of_conduct.html)&nbsp;&nbsp;&nbsp;&nbsp;{{{ page.date }}}
+[![Creative Commons License](https://i.creativecommons.org/l/by/4.0/88x31.png)](http://creativecommons.org/licenses/by/4.0/) &nbsp;&nbsp;&nbsp;&nbsp; [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](code_of_conduct.html)&nbsp;&nbsp;&nbsp;&nbsp;
 
 <table style="margin-left: auto;margin-right: auto; border: 2px solid purple; border-radius: 20px;">
     <tbody>
@@ -23,7 +27,7 @@
 
 # Iterative Bleaching Extends Multiplexity (IBEX) Knowledge-Base
 
-The Iterative Bleaching Extends Multiplexity (IBEX) imaging method is an iterative immunolabeling and chemical bleaching method that enables highly multiplexed imaging in diverse tissues. The method was originally developed in the Laboratory of Dr. Ronald Germain in the Lymphocyte Biology Section, [Laboratory of Immune System Biology](https://www.niaid.nih.gov/research/lab-immune-system-biology) at the US National Institutes of Health. The original protocol was described in the following publications:
+The Iterative Bleaching Extends Multiplexity (IBEX) imaging method is an iterative immunolabeling and chemical bleaching method that enables highly multiplexed imaging in diverse tissues. The method was originally developed in the Laboratory of Dr. Ronald Germain in the Lymphocyte Biology Section, [Laboratory of Immune System Biology](https://www.niaid.nih.gov/research/lab-immune-system-biology){:target="_blank"} at the US National Institutes of Health. The original protocol was described in the following publications:
 
 * A. J. Radtke et al., "IBEX: A versatile multiplex optical imaging approach for deep phenotyping and spatial analysis of cells in complex tissues", Proc. Natl. Acad. Sci. USA, 117(52): 33455-33465, 2020, [doi: 10.1073/pnas.2018488117](https://doi.org/10.1073/pnas.2018488117).
 * A. J. Radtke et al., "IBEX: an iterative immunolabeling and chemical bleaching method for high-content imaging of diverse tissues", Nat. Protoc., 17(2):378-401, 2022, [doi: 10.1038/s41596-021-00644-9](https://doi.org/10.1038/s41596-021-00644-9).
