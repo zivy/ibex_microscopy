@@ -197,3 +197,41 @@
 | [P32248](https://www.uniprot.org/uniprotkb/P32248) | CCR7                              | anti-CCR7 antibody (discontinued)                                                      | Rabbit IgG                  | Polyclonal  | LS Bio                      | LS-C210538       | Unconjugated |             | IHC-Fr        | Multiplexed imaging | 1% PFA Fixed Frozen   | Human lymph node  | 0.3% Triton-X-100 |                                |                                                                        | Failure  | [0000-0003-4379-8967](supporting_material/CCR7_Unconjugated/0000-0003-4379-8967.md)                   |            |
 | [P32248](https://www.uniprot.org/uniprotkb/P32248) | CCR7                              | CCR7 Antibody                                                                          | Goat IgG                    | Polyclonal  | Novus                       | NB100-712SS      | Unconjugated |             | IHC-Fr        | Multiplexed imaging | 1% PFA Fixed Frozen   | Human lymph node  | 0.3% Triton-X-100 |                                |                                                                        | Failure  | [0000-0003-4379-8967](supporting_material/CCR7_Unconjugated/0000-0003-4379-8967.md)                   |            |
 {: #reagent_resources_table}
+
+<script src="assets/tablefilter/tablefilter.js"></script>
+<script data-config="">
+    var filtersConfig = {
+        base_path: 'assets/tablefilter/',
+        alternate_rows: true,
+        btn_reset: true,
+        rows_counter: true,
+        loader: true,
+        status_bar: true,
+        col_0: 'select',
+        col_1: 'select',
+        col_2: 'select',
+        col_3: 'select',
+        col_4: 'select',
+        col_5: 'select',
+        col_6: 'select',
+        col_7: 'select',
+        col_8: 'select',
+        col_9: 'select',
+        col_10: 'select',
+        col_11: 'select',
+        col_12: 'select',
+        col_13: 'select',
+        col_14: 'select',
+        col_15: 'select',
+        col_16: 'select',
+        col_17: 'select',
+        col_18: 'select',
+        grid_layout: true,
+        grid_layout: {
+            width: '1000px',
+            height: '500px'
+        }
+    };
+    var tf = new TableFilter('reagent_resources_table', filtersConfig);
+    tf.init();  
+</script>
