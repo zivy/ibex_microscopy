@@ -25,7 +25,22 @@ jobs:
         sudo apt-get install pandoc-citeproc
         python -m pip install --upgrade pip
         pip install -r src/requirements.txt
+    - name: Fine tuning execution
+      id: ft
+      shell: bash
+      run: |
+        if [ ${{ github.event_name == 'workflow_dispatch' }}='true' ]; then
+           echo "Z Convert all"
+        else
+          if [ $(git diff --quiet HEAD\^ HEAD -- publications.bib src/ibex.csl docs/publications.md) ]; then
+            echo "Z Convert bib"
+          fi
+          if [$(git diff --quiet HEAD\^ HEAD -- publications.bib .github/workflows/data2md.yml)]; then
+            echo "Z Convert data2md.yml"
+          fi
+        fi
     - name: Convert bibliography to markdown
+      if: ${{ steps.ft.outputs.convert_bib }}
       run: |
         pandoc --version
         python src/bib2md.py publications.bib src/ibex.csl docs/publications.md
