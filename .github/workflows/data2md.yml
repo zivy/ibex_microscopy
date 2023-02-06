@@ -25,32 +25,52 @@ jobs:
         sudo apt-get install pandoc-citeproc
         python -m pip install --upgrade pip
         pip install -r src/requirements.txt
-    - name: Fine tuning execution
+    - name: Fine tune data to markdown conversion
       id: ft
       shell: bash
       run: |
-        if [ ${{ github.event_name == 'workflow_dispatch' }}='true' ]; then
-           echo "Z Convert all"
+        convert_bib=0
+        convert_reagents=0
+        if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+          convert_bib=1
+          convert_reagents=1
         else
-          if [ $(git diff --quiet HEAD\^ HEAD -- publications.bib src/ibex.csl docs/publications.md) ]; then
-            echo "Z Convert bib"
+          if ! git diff --quiet HEAD\^ HEAD -- publications.bib src/ibex.csl; then
+            convert_bib=1
           fi
-          if [$(git diff --quiet HEAD\^ HEAD -- publications.bib .github/workflows/data2md.yml)]; then
-            echo "Z Convert data2md.yml"
+          if ! git diff --quiet HEAD\^ HEAD -- reagent_resources.csv; then
+            convert_reagents=1
           fi
         fi
+        echo "convert_bib=$convert_bib" >> $GITHUB_OUTPUT
+        echo "convert_reagents=$convert_reagents" >> $GITHUB_OUTPUT
+        echo $convert_bib
+        echo $convert_reagents
+    - name: Print prev output
+      run: |
+        echo "Convert bib value:"
+        echo ${{ steps.ft.outputs.convert_bib }}
+        echo "Convert reagent value:"
+        echo ${{ steps.ft.outputs.convert_reagents }}
     - name: Convert bibliography to markdown
-      if: ${{ steps.ft.outputs.convert_bib }}
+      if: ${{ steps.ft.outputs.convert_bib == '1'}}
       run: |
-        pandoc --version
-        python src/bib2md.py publications.bib src/ibex.csl docs/publications.md
+        echo "Z convert bib"
+        echo ${{ steps.ft.outputs.convert_bib }}
+      #  pandoc --version
+      #  python src/bib2md.py publications.bib src/ibex.csl docs/publications.md
     - name: Convert reagent-resources csv to markdown
+      if: ${{ steps.ft.outputs.convert_reagents == '1'}}
       run: |
-        python src/csv_reagent_resources_2_md_url.py reagent_resources.csv docs/supporting_material
+        echo "Z convert reagent"
+        echo ${{ steps.ft.outputs.convert_reagents }}
+        #python src/csv_reagent_resources_2_md_url.py reagent_resources.csv docs/supporting_material
     - name: Commit and push
       run: |
-        git config --local user.email "$(git log --format='%ae' HEAD^!)"
-        git config --local user.name "$(git log --format='%an' HEAD^!)"
-        git add docs/reagent_resources.md docs/publications.md
-        git commit -m "Adding converted markdowns."
-        git push
+        if ! git diff --quiet; then
+          git config --local user.email "$(git log --format='%ae' HEAD^!)"
+          git config --local user.name "$(git log --format='%an' HEAD^!)"
+          git add docs/reagent_resources.md docs/publications.md
+          git commit -m "Adding converted markdowns."
+          git push
+        fi
